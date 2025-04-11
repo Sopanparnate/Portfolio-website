@@ -1,0 +1,65 @@
+
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+
+header, footer {
+    
+    width: 100%;
+    background: #333;
+    padding: 15px 0;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+ul {
+            list-style-type: none; /* Removes bullet points */
+            padding: 0;
+            margin: 0;
+            display: flex; /* Makes the list items align in a row */
+            justify-content: center; /* Centers the items horizontally */
+            background-color: #333;
+        }
+
+        li {
+            padding: 15px 20px;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        li:hover {
+            background-color: #555;
+        }
+
+
+        footer {
+            text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+   

@@ -1,0 +1,109 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F8FAFC; 
+    color: #1E3A8A; 
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Contact Page Container */
+.contact-container {
+    max-width: 800px;
+    margin: auto;
+    background: #FFFFFF; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Contact Header */
+.contact-header h1 {
+    font-size: 2rem;
+    color: #1E3A8A; 
+}
+
+.contact-header p {
+    color: #333; 
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+.contact-form h2 {
+    color: #1E3A8A;
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #333; 
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #1E3A8A; 
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #1E3A8A; 
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #06B6D4; 
+}
+
+/* Contact Information */
+.contact-info h2, 
+.social-links h2 {
+    color: #1E3A8A; 
+    margin-top: 20px;
+}
+
+.contact-info p, 
+.social-links p {
+    color: #333; 
+    margin-bottom: 10px;
+}
+
+/* Social Media Links */
+.social-links a {
+    color: #06B6D4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+    color: #1E3A8A; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 20px;
+    }
+    .contact-header h1 {
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+
+</head>
+<body >
+    <header>
+        <nav>
+            <div class="left"><img src="Logo.png" alt="logo of site" width="100" style="border-radius: 50%;"></div>
+            <div class="right">
+                <ul>
+                    <li><a href="Home.html">Home</a>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Project.html">Projects</a></li>
+                    <li><a href="Skill.html">Skill</a></li>
+                    <li><a href="Resume.html">Resume</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="contact-container">
+        <section class="contact-header">
+            <h1>📞 Contact Me</h1>
+            <p>Feel free to reach out for collaborations, projects, or just to say hi! 😊</p>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form">
+            <h2>📝 Send Me a Message</h2>
+            <form  action="https://api.web3forms.com/submit" method="POST"> <!-- using web3form api to send message-->
+                <input type="hidden" name="access_key" value="05b2d3cc-b237-4196-9818-193a91377a71"> <!-- here we provided acess key for sending message to user -->
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <!-- Contact Info -->
+        <section class="contact-info">
+            <h2>📧 Contact Information</h2>
+            <p><b>Email:</b> RavanPersonalPortfolio@gmail.com</p>
+            <p><b>Phone:</b> +91 12345 67890</p>
+        </section>
+
+        <!-- Social Media Links -->
+        <section class="social-links">
+            <h2>🌐 Connect with Me</h2>
+            <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/sopan-parnate-120300sp" target="_blank">Linkedin Profile</a></p>
+            <p><b>GitHub:</b> <a href="https://github.com/Sopanparnate" target="_blank">GitHub Profile</a></p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+         <pre>&copy; 2025 Ravan Personal Portfolio. All rights reserved.</pre>
+         <div class="contact-info">
+             <h4>📧 Contact Information</h4>
+             <pre><strong>Email:</strong>RavanPersonalPortfolio@gmail.com</pre>
+         </div>
+         <div class="social-links">
+             <h4>🌐 Social Media</h4>
+             <pre><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/sopan-parnate-120300sp" target="_blank">Ravan's Linkedin</a></pre>
+             <pre><strong>GitHub:</strong> <a href="https://github.com/Sopanparnate" target="_blank">Ravan's GitHub</a></pre>
+         </div>
+        </div>
+     </footer>
+</body>
+<script src="script.js"></script>
+</html>
